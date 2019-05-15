@@ -26,22 +26,22 @@ Python is available from several sources. We’ll use the anaconda distribution 
 
 ### Visual Studio Code
 
-Visual Studio Code can be installed from https://code.visualstudio.com/ Installers are available for Windows, Mac, and Linux. Just follow the default options. Once installed, there are a number of extensions that you should install. 
+Visual Studio Code can be installed from [here](https://code.visualstudio.com/) Installers are available for Windows, Mac, and Linux. Just follow the default options. Once installed, there are a number of extensions that you should install. 
 
 To do this, run visual studio. Select the last icon on the left hand side of the GUI (if you hover over icons you'll get a tooltip eventually - this one will say 'Extensions'). This will open the extensions viewer on the left hand side. Here you can enter a name or partial name of the extension you want to add, and you should see it listed below the search field. In many cases there will be multiple extensions matching your search phrase. To the right of each extension name you should see a 'cloud download' icon and the number of downloads for the extension next to it. (Widen the pane if this is not visible). A good guide for which extension to choose when there are multiple options is to pick the extension with the largest number of downloads as this is the most popular in its category. You can read more about an individual extension by clicking on it. To install the extension just click on the 'Install' button. Some extensions will require a reboot before they enable, but there will be a message to this effect when this occurs.
 
-Feel free to explore and see the vast range of extensions available for VS Code. This is a big reason why it has become one of the most popular code editors (that, and the fact that its free).
+Feel free to explore and see the vast range of extensions available for VS Code. This is a big reason why it has become one of the most popular code editors (that, and the fact that it's free).
 
 Please install the following extensions:
 
 
 Extension | Comments
 ---------- | ---------------
-Python | Once installed you may be asked to select the interpreter - there will be a drop down list and you should select the one with 'anaconda' in the filepath. (If you don't see this, there' womething wrong with your python installation.)
+Python | Once installed you may be asked to select the interpreter - there will be a drop down list and you should select the one with 'anaconda' in the filepath. (If you don't see this, there's something wrong with your python installation.)
 GitLens | provides tight integration with Git and Github
 Ansible | provides support for writing ansible scripts
 Bash | If using a Mac or Unix OS
-Colbalt2 Theme | My preferred theme - search for theme to see other options
+Colbalt2 Theme | My preferred theme - search for 'theme' to see others that are available
 Live Share | This enables the live code sharing capability
 Markdown PDF | This allows you to convert markdown documents to PDF (which is how this pdf was created)
 
@@ -60,11 +60,12 @@ Node-RED is an application that runs on nodejs. The download link is [here](http
 
 ### Node-RED
 
-Once nodejs is installed, follow the installation instructions [here](https://nodered.org/docs/getting-started/installation) (follow the text from the top of the page until Install via SNAP). Once the installation completes, follow [these instructions](https://nodered.org/docs/getting-started/running) to run node-RED. Node-RED uses the browser as the main GUI, so once it is running open a browser and point it to [http://localhost:1880](http://localhost:1880) .
+Once nodejs is installed, follow the installation instructions [here](https://nodered.org/docs/getting-started/installation) (follow the text from the top of the page until 'Install via SNAP'). Once the installation completes, follow [these instructions](https://nodered.org/docs/getting-started/running) to run node-RED. Node-RED uses the browser as the main GUI, so once it is running open a browser and point it to [http://localhost:1880](http://localhost:1880) .
 
 ## Exploring the Tools
 
 ### Visual Studio Code
+
 This [tutorial](https://code.visualstudio.com/docs/python/python-tutorial) describes writing an 'Hello World!' python script in Visual Studio Code. This is also a good test that everything is configured correctly.
 
 ### Node-RED
